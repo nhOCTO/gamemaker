@@ -137,7 +137,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
 
 var onClickLogo = function onClickLogo() {
-  window.location = 'https://scratch.mit.edu';
+  window.location = 'https://sites.google.com/pccsk12.com/babushkaonline/game-maker-studio';
 };
 var handleTelemetryModalCancel = function handleTelemetryModalCancel() {
   Object(_lib_log_js__WEBPACK_IMPORTED_MODULE_6__["default"])('User canceled telemetry modal');
@@ -296,14 +296,14 @@ module.exports = {
         items.length;
         items.splice(insertBeforeIndex, 0, {
           enabled: true,
-          text: "Export Selected Block to SVG",
+          text: "Export Block to SVG",
           callback: function callback() {
             exportBlock(false, block);
           },
           separator: true
         }, {
           enabled: true,
-          text: "Export Selected Block to PNG",
+          text: "Export Block to PNG",
           callback: function callback() {
             exportBlock(true, block);
           },
